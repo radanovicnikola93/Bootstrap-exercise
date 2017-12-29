@@ -10,7 +10,7 @@
     <title>Bootstrap tutorial</title>
 
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -23,18 +23,34 @@
 
       <div class="jumbotron">
 
-      <p>Simple text inside the Paragraph</p>
+      <p>Buttons examples</p>
       <p>
-        <a href="#" class="btn btn-default btn-lg" role="button">More info</a>
 
-        <button type="submit" class="btn btn-danger" role="button">Button</button>
-        <button type="submit" class="btn btn-primary btn-sm" role="button">Primary</button>
-        <button type="submit" class="btn btn-success btn-xs" role="button">Success</button>
-        <button type="submit" class="btn btn-warning btn-lg" role="button">Warning</button>
-        <button type="submit" class="btn btn-link btn-lg" role="button">Link</button>
+        <!--Type of buttons-->
+        <a href="#" class="btn btn-default btn-lg" role="button">More info</a>
 
         <input type="button" value="info" class="btn btn-info">
 
+        <button type="submit" class="btn btn-danger">Button</button>
+        <button type="submit" class="btn btn-success btn-xs">Success</button>
+        <button type="submit" class="btn btn-primary btn-sm">Primary</button>
+        <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+        <button type="submit" class="btn btn-link btn-lg">Link</button>
+
+
+
+        <!--Disabled button-->
+        <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+        <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+
+        <!--Group of buttons-->
+        <div class="btn-group btn-group-lg">
+
+          <button type="submit" class="btn btn-default">Button 1</button>
+          <button type="submit" class="btn btn-default">Button 2</button>
+          <button type="submit" class="btn btn-default">Button 3</button>
+
+        </div>
       </p>
       </div>
 
